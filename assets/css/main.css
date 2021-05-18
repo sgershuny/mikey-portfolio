@@ -3921,3 +3921,16 @@ input, select, textarea {
 #one{
 	padding-bottom: 4em;
 }
+
+@media screen and (max-width: 705px){
+	.yt-vid{
+		position:relative;
+		padding-left: 0em;
+	}
+
+	.yt-vid iframe{
+		top: 0;
+		left: 0;
+		width: 100%
+	}
+}
